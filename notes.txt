@@ -1,0 +1,18 @@
+> TEXT EDITOR
+> NodeJs => nodejs.org (Install)
+> GitBash => git-scm.com/downloads (Install)
+> GitHub Link => https://github.com/
+
+Github profile
+
+
+Configure your Git username/email
+
+> Open the command line.
+> Set your username: gir config --global user name "FIRST_NAME LAST_NAME"
+> Set your email address : git config --global user.email "MY_NAME@gmail.com"
+
+
+MERN
+MongoDB | Express | React |nodejs
+
