@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+          /*  width: 100%; */
+        }
+        table, th, td {
+        border: 1px dotted red; 
+        /*border-radius: 5px;
+        border-style: solid;
+        border-color: red; */
+        border-collapse: collapse;
+        }
+        table, th, td {
+            background-color: rgb(217, 210, 210);
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th colspan="3">Name</th>   
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td style="background-color: aqua;">John</td>
+            <td>john@gmail.com</td>
+            <td>4567892</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jack</td>
+            <td>jack@gmail.com</td>
+            <td>6565392</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Philip</td>
+            <td>philip@gmail.com</td>
+            <td>9567832</td>
+        </tr>
+    </table>
+    <br /><br />
+
+    <!--Table 2-->
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>John</td>
+            <td>Mike</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Email</th>
+            <td>john@gmail.com</td>
+            <td>mike@gmail.com</td>
+        </tr>
+        <tr>
+           <!-- <th>Phone</th> -->
+            <td>4567893</td>
+            <td>2974583</td>
+        </tr>
+    </table>
+</body>
+</html>
